@@ -1,0 +1,8 @@
+# Ignore all files inside these folders
+Cifar10/*
+models/*
+logs/test/*
+logs/train/*
+
+# Ignore all .pt files
+*.pt

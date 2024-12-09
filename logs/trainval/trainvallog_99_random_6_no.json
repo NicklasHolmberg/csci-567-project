@@ -1,0 +1,408 @@
+{
+    "epoch": 1,
+    "train_loss": 25.368101596832275,
+    "train_accuracy": 10.8,
+    "val_loss": 25.368101596832275,
+    "val_accuracy": 10.8,
+    "val_confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            55,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            51,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            52,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            38,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            48,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            54,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            55,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            43,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            56,
+            0,
+            0,
+            0
+        ]
+    ],
+    "val_classification_report": {
+        "plane": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 48.0
+        },
+        "car": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 55.0
+        },
+        "bird": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 51.0
+        },
+        "cat": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 52.0
+        },
+        "deer": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 38.0
+        },
+        "dog": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 48.0
+        },
+        "frog": {
+            "precision": 0.108,
+            "recall": 1.0,
+            "f1-score": 0.19494584837545126,
+            "support": 54.0
+        },
+        "horse": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 55.0
+        },
+        "ship": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 43.0
+        },
+        "truck": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 56.0
+        },
+        "accuracy": 0.108,
+        "macro avg": {
+            "precision": 0.0108,
+            "recall": 0.1,
+            "f1-score": 0.019494584837545126,
+            "support": 500.0
+        },
+        "weighted avg": {
+            "precision": 0.011663999999999999,
+            "recall": 0.108,
+            "f1-score": 0.021054151624548736,
+            "support": 500.0
+        }
+    }
+}
+{
+    "epoch": 2,
+    "train_loss": 72.61951637268066,
+    "train_accuracy": 11.6,
+    "val_loss": 72.61951637268066,
+    "val_accuracy": 11.6,
+    "val_confusion_matrix": [
+        [
+            0,
+            47,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            54,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            47,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            48,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            36,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            44,
+            0,
+            0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            51,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            50,
+            0,
+            0,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            43,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            56,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "val_classification_report": {
+        "plane": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 48.0
+        },
+        "car": {
+            "precision": 0.1134453781512605,
+            "recall": 0.9818181818181818,
+            "f1-score": 0.2033898305084746,
+            "support": 55.0
+        },
+        "bird": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 51.0
+        },
+        "cat": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 52.0
+        },
+        "deer": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 38.0
+        },
+        "dog": {
+            "precision": 0.16666666666666666,
+            "recall": 0.08333333333333333,
+            "f1-score": 0.1111111111111111,
+            "support": 48.0
+        },
+        "frog": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 54.0
+        },
+        "horse": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 55.0
+        },
+        "ship": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 43.0
+        },
+        "truck": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 56.0
+        },
+        "accuracy": 0.116,
+        "macro avg": {
+            "precision": 0.028011204481792718,
+            "recall": 0.10651515151515152,
+            "f1-score": 0.03145009416195857,
+            "support": 500.0
+        },
+        "weighted avg": {
+            "precision": 0.028478991596638657,
+            "recall": 0.116,
+            "f1-score": 0.03303954802259887,
+            "support": 500.0
+        }
+    }
+}
