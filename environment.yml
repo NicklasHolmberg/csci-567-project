@@ -1,0 +1,14 @@
+name: CS567
+channels:
+  - defaults
+dependencies:
+  - scikit-learn
+  - matplotlib
+  - python=3.8
+  - numpy
+  - torchvision==0.17.1
+  - jupyter
+  - tqdm
+  - torchaudio==2.2.1
+  - pytorch==2.2.1
+prefix: /Users/jeongsikpark/miniconda3/envs/CS567
