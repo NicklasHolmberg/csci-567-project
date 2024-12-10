@@ -208,7 +208,8 @@ def load_data(data_dir, args):
     return train_dataset, dev_dataset, test_dataset
     
 def get_dataloader(dataset, batch_size, shuffle=True):
-    return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle)
+    print("get dataloader...")
+    return DataLoader(dataset, batch_size=batch_size, shuffle=shuffle, num_workers=4)
 
 # Function to get label distribution
 def get_label_distribution(dataset):
