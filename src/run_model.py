@@ -91,10 +91,7 @@ def main():
     # Set random seed for reproducibility, 'args.random_seed' will be used for this purpose.
     random_seed = args.random_seed
     reset_random(random_seed)
-    
-    
 
-    
     # 'args.augment' argument will be used to determine whether to use data augmentation or not.
     train_dataset, dev_dataset, test_dataset = load_data(data_dir='../Cifar10', args=args)
     
@@ -116,15 +113,15 @@ def main():
     dev_loader = get_dataloader(dev_dataset, batch_size=batch_size, shuffle=False)
     test_loader = get_dataloader(test_dataset, batch_size=batch_size, shuffle=False)
 
-    # Overview of the CIFAR-10 Dataset (statistics of train, dev, test respectively)
-    # Calculate label distributions for train, dev, and test datasets
-    train_label_counts = get_label_distribution(train_dataset)
-    dev_label_counts = get_label_distribution(dev_dataset)
-    test_label_counts = get_label_distribution(test_dataset)
-    # Display label distributions with class names
-    display_label_distribution(train_label_counts, "Train Dataset", classes) # The default training set size is 45,000. The training dataset size depends on args.augment: for augment 1, it is 45,000, while for augment 2–8, it is 90,000 (45,000 × 2). Please ensure the number of augmented versions is correct.
-    display_label_distribution(dev_label_counts, "Dev Dataset", classes)
-    display_label_distribution(test_label_counts, "Test Dataset", classes)
+    # # Overview of the CIFAR-10 Dataset (statistics of train, dev, test respectively)
+    # # Calculate label distributions for train, dev, and test datasets
+    # train_label_counts = get_label_distribution(train_dataset)
+    # dev_label_counts = get_label_distribution(dev_dataset)
+    # test_label_counts = get_label_distribution(test_dataset)
+    # # Display label distributions with class names
+    # display_label_distribution(train_label_counts, "Train Dataset", classes) # The default training set size is 45,000. The training dataset size depends on args.augment: for augment 1, it is 45,000, while for augment 2–8, it is 90,000 (45,000 × 2). Please ensure the number of augmented versions is correct.
+    # display_label_distribution(dev_label_counts, "Dev Dataset", classes)
+    # display_label_distribution(test_label_counts, "Test Dataset", classes)
     
     # Preview some data. Activate this if needed.
     # overview_data(train_loader, classes, num_images=num_classes)

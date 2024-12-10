@@ -6,13 +6,22 @@ This repository contains code and scripts for conducting experiments on the CIFA
 
 ## Setup
 
+### Clone the repo
+
+```sh
+git clone https://github.com/NicklasHolmberg/csci-567-project.git
+cd csci-567-project
+```
+
+install conda if needed: https://docs.anaconda.com/miniconda/install/
+
 ### Create Conda Environment
 
 To set up the environment required for running the experiments, use the provided `environment.yml` file to create and activate a Conda environment:
 
 ```sh
 conda env create -f environment.yml
-conda activate CS567
+conda activate cs567
 ```
 
 ---
@@ -22,8 +31,7 @@ conda activate CS567
 To execute the experiments, navigate to the `src` directory and run the `run.sh` script:
 
 ```sh
-cd src
-bash run.sh
+bash src/run.sh
 ```
 
 This script runs multiple configurations, logs results, and saves the best-performing models.
