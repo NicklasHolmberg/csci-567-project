@@ -71,10 +71,10 @@ def main():
     # - For Apple Silicon Mac users:
     #   1. Install `torch`, `torchaudio`, and `torchvision` first.
     #   2. Use the following code with 'mps' to leverage GPU (Metal Performance Shaders) for training.
-    device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
+    # device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
     # - For users with NVIDIA GPUs:
     #   - If CUDA is available, you can use 'cuda' for GPU acceleration by replacing the code with:
-    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     print(f'Using {device} device')
 
     # classes

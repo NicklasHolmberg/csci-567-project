@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# csci-567-project
-csci-567-project, improving on AlexNet
-
-
-#TODO:
-Until next Friday (11/22) Experiment with different architectures, adhere to the structure outlined in Week1’s notes, including using three random seeds (42, 1, and 99 / init parameters, batch, and divide train/dev set etc), and averaging the results, as well as utilizing xavier initialization. Stick to using SGD as the optimizer (since most people are using this as the optimizer), and record both accuracy and confusion matrix. Will share source codes through github: 
-=======
 # CSCI-567 Project
 
 This repository contains code and scripts for conducting experiments on the CIFAR-10 dataset. The experiments explore the effects of different initialization methods, data augmentation techniques, and skip connections on model performance.
@@ -96,4 +88,3 @@ To run the experiments, execute the `run.sh` script as described in the setup se
 ## Notes
 
 Feel free to explore and modify the scripts for your specific needs.
->>>>>>> e6463fd1e232128d5adc21cd9e435379d13095a2

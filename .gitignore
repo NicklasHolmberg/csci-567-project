@@ -1,14 +1,14 @@
 # Ignore all files inside these folders
 Cifar10/*
 models/*
-logs/test/*
-logs/trainval/*
+# logs/test/*
+# logs/trainval/*
 
 # Allow the folders to exist
 !Cifar10/.gitkeep
 !models/.gitkeep
-!logs/test/.gitkeep
-!logs/trainval/.gitkeep
+# !logs/test/.gitkeep
+# !logs/trainval/.gitkeep
 
 # Ignore all .pt files
 *.pt
