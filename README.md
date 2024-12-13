@@ -13,8 +13,6 @@ git clone https://github.com/NicklasHolmberg/csci-567-project.git
 cd csci-567-project
 ```
 
-install conda if needed: https://docs.anaconda.com/miniconda/install/
-
 ### Create Conda Environment
 
 To set up the environment required for running the experiments, use the provided `environment.yml` file to create and activate a Conda environment:
@@ -23,6 +21,7 @@ To set up the environment required for running the experiments, use the provided
 conda env create -f environment.yml
 conda activate cs567
 ```
+install conda if needed: https://docs.anaconda.com/miniconda/install/
 
 ---
 
