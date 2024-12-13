@@ -6,7 +6,7 @@ This repository contains code and scripts for conducting experiments on the CIFA
 
 ## Setup
 
-### Clone the repo
+### Clone the repository
 
 ```sh
 git clone https://github.com/NicklasHolmberg/csci-567-project.git
